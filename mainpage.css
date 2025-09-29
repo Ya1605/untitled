@@ -1,0 +1,18 @@
+.oneimg img{
+   height:30vh;
+   width:20vw;
+   padding-left: 50px;
+}
+
+.firstdiv{
+width:80vw;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-direction:row;
+padding-left:100px;
+}
+
+.onediv{
+width:50%
+}
