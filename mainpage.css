@@ -31,3 +31,14 @@ border:2px orange solid;
 border-radius:10px;
 height:40px;
 }
+
+.sectionSecond{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:orange;
+border-radius:30px;
+width:80%;
+margin-left:150px;
+margin-top:50px;
+}
