@@ -42,3 +42,21 @@ width:80%;
 margin-left:150px;
 margin-top:50px;
 }
+
+.secSection{
+text-align:center;
+padding:80px 40px;
+}
+
+.hire-future{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+max-width:1000px;
+margin:0 auto;
+}
+
+.future{
+max-width:220px;
+padding:10px;
+}
