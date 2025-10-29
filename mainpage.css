@@ -38,9 +38,9 @@ align-items:center;
 justify-content:space-between;
 background:orange;
 border-radius:30px;
-width:80%;
-margin-left:150px;
-margin-top:50px;
+width:60%;
+margin-left:370px;
+margin-top:70px;
 }
 
 .secSection{
@@ -54,9 +54,33 @@ justify-content:center;
 flex-wrap:wrap;
 max-width:1000px;
 margin:0 auto;
+padding-top:30px;
 }
 
 .future{
 max-width:220px;
 padding:10px;
+}
+
+.future img{
+background-color:#f2efed;
+border-radius:50%;
+width:70px;
+height:70px;
+}
+
+.portfolio{
+max-width:1000px;
+
+margin-top:100px;
+}
+
+.thirdSection{
+display:flex;
+justify-content:center;
+}
+
+.portfolio img{
+height:300px;
+width:310px;
 }
