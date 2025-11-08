@@ -121,9 +121,9 @@ padding: 35px 40px;
 }
 
 .price{
-background-color:grey;
+background-color:#F9F9F9;
 box-shadow:1px black solid;
-border-radius:20%;
+border-radius:15px;
 width:300px;
 height:400px;
 }
@@ -136,4 +136,13 @@ justify-content:center;
 align-items:center;
 gap:20px;
 height:400px;
+}
+
+.priceHeader{
+background-color:#FF9B70;
+height:10%;
+border-radius:15px 15px 0 0;
+text-align:center;
+padding:10px;
+
 }
