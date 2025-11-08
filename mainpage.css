@@ -144,5 +144,29 @@ height:10%;
 border-radius:15px 15px 0 0;
 text-align:center;
 padding:10px;
+font-size:20px;
+font-weight:600;
+color:white;
+}
+.amount{
+font-size:1.6rem;
+font-weight:700;
+color: #222;
+}
 
+.per{
+font-size:1rem;
+color:#888;
+margin-left:4px;
+}
+
+.priceMain{
+margin-top:10px;
+}
+
+.futures{
+list-style:none;
+text-align:left;
+padding:0 40px;
+margin:0;
 }
