@@ -108,7 +108,7 @@ gap:40px;
 flex-wrap:wrap;
 
 }
-.priceBox{
+.priceBlock{
 text-align:center;
 }
 .textSection{
@@ -125,7 +125,7 @@ background-color:#F9F9F9;
 box-shadow:1px black solid;
 border-radius:15px;
 width:300px;
-height:400px;
+height:500px;
 }
 
 
@@ -135,7 +135,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 gap:20px;
-height:400px;
+height:500px;
 }
 
 .priceHeader{
@@ -143,21 +143,24 @@ background-color:#FF9B70;
 height:10%;
 border-radius:15px 15px 0 0;
 text-align:center;
-padding:10px;
+padding-top:20px;
 font-size:20px;
 font-weight:600;
 color:white;
+margin-bottom:20px;
 }
 .amount{
 font-size:1.6rem;
 font-weight:700;
 color: #222;
+margin-bottom:10px;
 }
 
 .per{
 font-size:1rem;
 color:#888;
 margin-left:4px;
+margin-bottom:10px;
 }
 
 .priceMain{
@@ -168,7 +171,7 @@ margin-top:10px;
 list-style:none;
 text-align:left;
 padding:0 40px;
-margin:0;
+margin-top:10px;
 }
 
 .futures li{
@@ -181,5 +184,17 @@ border-bottom:1px solid #f5f5f5;
 .futures li.active{
 color:black;
 font-weight:500;
+}
 
+.futures li.active::before{
+content:"✔";
+color:#ff7a33;
+font-weight:bold;
+margin-right:10px;
+}
+
+.futures li:not(.active)::before{
+content:"✖";
+color:#ccc;
+margin-right:10px;
 }
