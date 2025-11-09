@@ -128,8 +128,6 @@ width:300px;
 height:500px;
 }
 
-
-
 .priceBox{
 display:flex;
 justify-content:center;
@@ -197,4 +195,15 @@ margin-right:10px;
 content:"✖";
 color:#ccc;
 margin-right:10px;
+}
+
+.workWithMe{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.divWorkWithMe{
+background-color:#FF7315;
+width:1100px;
+height:200px;
 }
