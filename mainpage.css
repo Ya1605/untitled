@@ -226,4 +226,41 @@ border-radius:15px;
 border:none;
 cursor:pointer;
 font-size:20px;
+transition:1s;
+}
+
+.emailMe:hover{
+background-color:#45a049;
+}
+
+.blogBox{
+display:flex;
+justify-content:space-between;
+margin: 0 auto;
+gap:20px;
+width:80%;
+
+}
+
+.blogSection{
+text-align:center;
+padding 40px;
+margin-top:50px;
+}
+
+.blogDiv{
+width:25%;
+height:450px;
+background-color:#F1F1F1;
+border-radius:10px;
+}
+
+.blogDiv img{
+margin-top:30px;
+height:250px;
+width:250px;
+}
+
+.blogDiv p{
+margin:20px;
 }
