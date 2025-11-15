@@ -200,19 +200,30 @@ margin-right:10px;
 .workWithMe{
 display:flex;
 justify-content:center;
-margin-top:30px;
+margin-top:50px;
 }
 .divWorkWithMe{
 background-color:#FF7315;
-width:1100px;
+width:1000px;
 height:200px;
 display:flex;
-justify-content:center;
+justify-content:space-around;
 align-items:center;
+border-radius:10px;
 
 }
 
 .textWork{
-font-size:2rem;
+font-size:3rem;
+width:40%;
 color:white;
+}
+
+.emailMe{
+height:50px;
+width:170px;
+border-radius:15px;
+border:none;
+cursor:pointer;
+font-size:20px;
 }
