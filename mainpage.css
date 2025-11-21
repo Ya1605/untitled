@@ -264,3 +264,15 @@ width:250px;
 .blogDiv p{
 margin:20px;
 }
+
+footer{
+height:100px;
+background-color:#F1F1F1;
+margin-top:40px;
+display:flex;
+justify-content:center;
+}
+
+footer p{
+margin-top:30px;
+}
