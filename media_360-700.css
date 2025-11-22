@@ -6,17 +6,54 @@ align-items:center;
 flex-direction:column-reverse;
 padding:0;
 width:100vw;
+margin-bottom:40px;
 }
 
 .oneimg img{
 width:70vw;
 height:40vh;
+padding:0;
 }
 
 .onediv{
 width:80vw;
-margin-left:60px;
+
 }
+.onediv h2{
+margin-left:20px;
+}
+.firstBut{
+margin-right:30px;
+margin-left:30px;
+}
+
+.socialImg{
+display:flex;
+justify-content:center;
+}
+
+.sectionSecond{
+width:90vw;
+display:flex;
+flex-direction:column;
+margin: 0 auto;
+}
+
+figure img {
+width:70vw;
+}
+
+.secComplProg{
+display:flex;
+align-items:center;
+flex-direction:column;
+text-align:center;
+}
+
+.secComplProg p{
+margin:20px;
+}
+
 
 
 
