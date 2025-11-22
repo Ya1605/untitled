@@ -1,0 +1,23 @@
+@media screen and (min-width: 360px) and (max-width: 700px){
+
+.firstdiv{
+display:flex;
+align-items:center;
+flex-direction:column-reverse;
+padding:0;
+width:100vw;
+}
+
+.oneimg img{
+width:70vw;
+height:40vh;
+}
+
+.onediv{
+width:80vw;
+margin-left:60px;
+}
+
+
+
+}
