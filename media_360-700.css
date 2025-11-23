@@ -54,7 +54,48 @@ text-align:center;
 margin:20px;
 }
 
+.thirdSection{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin:0 auto;
+margin-bottom:130px;
+}
 
+.portfolio{
+display:flex;
+flex-direction:column;
+align-items:center;
+max-height:max-content;
+}
 
+.portfolio img{
 
+height:220px;
+}
+.testimonials h2{
+font-size:1.5rem;
+}
+
+.testimonials{
+height:600px;
+}
+.textSection{
+height:70px;
+width:200px;
+text-align:center;
+margin-bottom:10px;
+}
+
+.priceBox{
+display:flex;
+flex-direction:column;
+height:1400px;
+
+}
+
+.price{
+height:450px;
+width:250px;
+}
 }
