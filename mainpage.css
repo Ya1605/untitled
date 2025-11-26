@@ -249,10 +249,11 @@ margin-top:50px;
 }
 
 .blogDiv{
-width:25%;
+flex-basis:25%;
 height:450px;
 background-color:#F1F1F1;
 border-radius:10px;
+flex: 1 1 calc(25% - 20px);
 }
 
 .blogDiv img{
