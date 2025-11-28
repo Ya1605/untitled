@@ -12,4 +12,17 @@ margin:0;
 .testimonials{
 margin-top:100px;
 }
+
+.blogDv{
+flex: 1 1 calc(50% - 20px);
+box-sizing:border-box;
+}
+
+.blogBox{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:space-between;
+
+}
 }
