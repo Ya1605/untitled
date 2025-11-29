@@ -38,7 +38,9 @@ display:flex;
 flex-direction:column;
 margin: 0 auto;
 }
-
+.secSection{
+margin-bottom:-90px;
+}
 figure img {
 width:70vw;
 }
@@ -70,7 +72,7 @@ max-height:max-content;
 }
 
 .portfolio img{
-
+margin-bottom:10px;
 height:220px;
 }
 .testimonials h2{
@@ -95,12 +97,13 @@ height:1400px;
 }
 
 .price{
-height:450px;
-width:250px;
+height:500px;
+width:300px;
 }
 .divWorkWithMe{
 display:flex;
 flex-direction:column;
+height:300px;
 }
 
 .textWork{
