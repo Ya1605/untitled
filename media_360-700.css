@@ -32,7 +32,9 @@ margin-left:20px;
 margin-right:30px;
 margin-left:30px;
 }
+.secBut{
 
+}
 .socialImg{
 display:flex;
 justify-content:center;
@@ -90,7 +92,7 @@ height:600px;
 }
 .textSection{
 height:70px;
-width:200px;
+max-width:200px;
 text-align:center;
 margin-bottom:10px;
 }
@@ -104,7 +106,7 @@ height:1600px;
 
 .price{
 height:500px;
-width:300px;
+max-width:300px;
 }
 .divWorkWithMe{
 display:flex;
@@ -123,7 +125,8 @@ flex-direction:column;
 }
 
 .blogDiv{
-width:300px;
+max-width:300px;
 height:450px;
+
 }
 }
