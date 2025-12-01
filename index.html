@@ -32,6 +32,17 @@
         </div>
        <div class="twoButton">
         <button class="firstBut">Send Request</button>
+           <form id="requestForm">
+               <label>Ваше імя</label>
+               <input type="text" name="user_name" required>
+
+               <label>Email</label>
+               <input type="email" name="user_email" required>
+
+               <label>Повідомлення</label>
+               <textarea name="user_message" required></textarea>
+           </form>
+           <p id="formStatus"></p>
            <a href="Тимченко_Юлія_Test.pdf" download class="secBut">Download CV</a>
        </div></div>
     <div class="oneimg">
@@ -209,5 +220,8 @@
 <footer>
     <p>© Copyright 2025 | B</p>
 </footer>
+<script>
+    document.getElementById("form").addEventListener("submit", function (event) {
+</script>
 </body>
 </html>
