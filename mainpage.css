@@ -291,3 +291,24 @@ justify-content:center;
 footer p{
 margin-top:30px;
 }
+
+.modal {
+    display: none;
+    position: fixed;   /* ВАЖЛИВО */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); /* затемнення */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;     /* ВАЖЛИВО */
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 320px;
+    position: relative;
+}

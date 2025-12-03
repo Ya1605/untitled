@@ -14,41 +14,61 @@
 <body>
 <header></header>
 <main>
-<section class="firstdiv">
-    <div class="onediv">
-     <h2>
-         I’m Mohammad Reza.
-         a Frontend developer.
-     </h2>
-        <p>
-            Hello! I'm a Frontend Developer from Spain. I
-            focus on writing clean, efficient code with a strong emphasis on
-            solving problems in an elegant and visually appealing way.
-            My goal is to combine aesthetics and functionality
-            in every project I work on."
-        </p>
-        <div class="socialImg">
-            <img src="SOCIAL%20MEDIA.png" alt="social media">
+    <section class="firstdiv">
+        <div class="onediv">
+            <h2>
+                I’m Mohammad Reza.
+                a Frontend developer.
+            </h2>
+
+            <p>
+                Hello! I'm a Frontend Developer from Spain. I
+                focus on writing clean, efficient code with a strong emphasis on
+                solving problems in an elegant and visually appealing way.
+                My goal is to combine aesthetics and functionality
+                in every project I work on.
+            </p>
+
+            <div class="socialImg">
+                <img src="SOCIAL MEDIA.png" alt="social media">
+            </div>
+
+            <div class="twoButton">
+                <button class="firstBut">Send Request</button>
+                <a href="Тимченко_Юлія_Test.pdf" download class="secBut">
+                    Download CV
+                </a>
+
+                <div id="contactModal" class="modal">
+                    <div class="modal-content">
+                        <span id="closeModal" class="close">&times;</span>
+
+                        <form id="requestForm">
+                            <label>Ваше ім'я</label>
+                            <input type="text" name="user_name" required>
+
+                            <label>Email</label>
+                            <input type="email" name="user_email" required>
+
+                            <label>Повідомлення</label>
+                            <textarea name="user_message" required></textarea>
+
+                            <button type="submit">Відправити</button>
+                        </form>
+
+                        <p id="formStatus"></p>
+
+                    </div>
+                </div>
+            </div> <!-- /twoButton -->
+
+        </div> <!-- /onediv -->
+
+        <div class="oneimg">
+            <img src="Image.png" alt="nice boy">
         </div>
-       <div class="twoButton">
-        <button class="firstBut">Send Request</button>
-           <form id="requestForm">
-               <label>Ваше імя</label>
-               <input type="text" name="user_name" required>
+    </section>
 
-               <label>Email</label>
-               <input type="email" name="user_email" required>
-
-               <label>Повідомлення</label>
-               <textarea name="user_message" required></textarea>
-           </form>
-           <p id="formStatus"></p>
-           <a href="Тимченко_Юлія_Test.pdf" download class="secBut">Download CV</a>
-       </div></div>
-    <div class="oneimg">
-        <img src="Image.png" alt="nice boy">
-    </div>
-</section>
     <section class="sectionSecond">
             <figure>
                 <img src="Transparent%20zoomed%201.svg" alt="Illustration showing web development projects">
@@ -220,8 +240,50 @@
 <footer>
     <p>© Copyright 2025 | B</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+</script>
 <script>
-    document.getElementById("form").addEventListener("submit", function (event) {
+    emailjs.init("z3_NU-a4Cro6A-hH0");
+
+const modal = document.getElementById("contactModal");
+const openBtn = document.querySelector(".firstBut");
+const closeBtn = document.getElementById("closeModal");
+const form = document.getElementById("requestForm");
+const status = document.getElementById("formStatus");
+
+// відкриття модалки
+openBtn.onclick = () => modal.style.display = "flex";
+
+// закриття по Х
+closeBtn.onclick = () => modal.style.display = "none";
+
+// закриття по кліку поза модалкою
+window.onclick = (e) => {
+    if (e.target === modal) modal.style.display = "none";
+};
+
+// відправка форми EmailJS
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm("service_384pi0d","template_n0gx2ev", this)
+        .then(() => {
+            status.innerHTML = "Sent";
+            status.style.color = "green";
+
+            // ➜ закриття модалки після 1 секунди
+            setTimeout(() => {
+                modal.style.display = "none";
+                form.reset();
+                status.innerHTML = "";
+            }, 500);
+
+        }, () => {
+            status.innerHTML = "ERROR";
+            status.style.color = "red";
+        });
+});
+
 </script>
 </body>
 </html>
