@@ -306,9 +306,46 @@ margin-top:30px;
 }
 
 .modal-content {
-    background: #fff;
+    background: orange;
     padding: 20px;
     border-radius: 12px;
-    width: 320px;
+    width: 420px;
+    height:400px;
     position: relative;
+    display:flex;
+    justify-content:center;
+
+}
+
+#requestForm{
+display:flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction:column;
+    gap:5px;
+
+}
+#closeModal{
+cursor:pointer;
+}
+#requestForm button{
+background:white;
+border-radius:10px;
+height:30px;
+
+}
+
+#requestForm input{
+height:30px;
+width:200px;
+}
+
+#requestForm textarea{
+height:60px;
+width:200px;
+margin-bottom:15px;
+}
+#requestForm button{
+cursor:pointer;
+
 }
