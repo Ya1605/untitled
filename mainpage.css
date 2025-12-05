@@ -29,6 +29,7 @@ background:red;
 border:none;
 border-radius:10px;
 cursor:pointer;
+width:120px;
 }
 
 .secBut{
@@ -84,7 +85,7 @@ text-align:center;
 }
 
 .thirdSection{
-height:600px;
+height:1300px;
 display:flex;
 justify-content:center;
 align-items:center;

@@ -23,6 +23,7 @@ padding:0;
 
 .onediv{
 width:80vw;
+margin-right:250px;
 
 }
 .onediv h2{
@@ -30,11 +31,9 @@ margin-left:20px;
 }
 .firstBut{
 margin-right:30px;
-margin-left:30px;
-}
-.secBut{
 
 }
+
 .socialImg{
 display:flex;
 justify-content:center;
@@ -45,9 +44,6 @@ width:90vw;
 display:flex;
 flex-direction:column;
 margin: 0 auto;
-}
-.secSection{
-margin-bottom:-90px;
 }
 figure img {
 width:70vw;
