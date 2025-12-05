@@ -3,7 +3,10 @@
 .firstdiv{
 margin-bottom:50px;
 }
-
+.oneimg img{
+width:400px;
+height:400px;
+}
 .sectionSecond{
 width:100%;
 margin:0;
